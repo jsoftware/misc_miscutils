@@ -1,9 +1,10 @@
 require 'misc/miscutils/klutils'
 require 'regex'
 IFQT =: IFQT"_^:(0 <: 4!:0 <'IFQT') 0
-require^:(-.IFQT)'winapi'
-require^:IFQT 'format/printf'
-require^:(-.IFQT) 'printf'
+IFJ6 =: 0 <: 4!:0 <'IFCONSOLE'
+require^:(IFJ6)'winapi'
+require^:(-.IFJ6) 'format/printf'
+require^:(IFJ6) 'printf'
 cocurrent 'z'
 
 NB. Make this early, since others need it
