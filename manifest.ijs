@@ -1,13 +1,13 @@
 NB. manifest for miscutils
 CAPTION=: 'Miscellaneous utility definitions'
-VERSION=: '1.0.2'
+VERSION=: '1.0.3'
 PLATFORMS=: ''
 FILES=: 0 : 0
 langexten.ijs
 klutils.ijs
 utils.ijs
 )
-RELEASE=: 'j602 j803 j804 j805'
+RELEASE=: 'j602 j803 j804 j805 j806'
 DEPENDS=: 0 : 0
 format/printf
 )
