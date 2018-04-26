@@ -7,7 +7,10 @@ langexten.ijs
 klutils.ijs
 utils.ijs
 )
-RELEASE=: 'j602 j803 j804 j805 j806 j807'
+RELEASE=: ''
+
+FOLDER=: 'misc/miscutils'
+
 DEPENDS=: 0 : 0
 format/printf
 )
