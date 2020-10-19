@@ -219,7 +219,7 @@ apow =: 2 : 0
 NB. Conjunction: we use this for things that may need to be 'rank' if J
 NB. starts reexecuting frequently, but are " till then.  The nature of these things
 NB. must be that they perform I/O, so we inhibit them if they are null
-rnk =: 2 : 'x"y ifany'
+rnk =: 2 : 'u"v ifany'
 
 NB. Conjunction: x if y is nonzero, otherwise nullverb
 butonlyif =: 2 : 0
