@@ -167,9 +167,6 @@ NB.?lintmsgsoff
 NB.?lintmsgson
 )
 
-NB. 18!:4 without side effects
-setlocale =: 18!:4
-
 NB. Cuts
 onpiecesbetweenm =: 2 : '(u ;._1)@:(n&,)'
 onpiecesbetweend =: 2 : '(u>)"_1 <;._1@(n&,)'
