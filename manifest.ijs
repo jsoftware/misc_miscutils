@@ -1,6 +1,6 @@
 NB. manifest for miscutils
 CAPTION=: 'Miscellaneous utility definitions'
-VERSION=: '1.0.5'
+VERSION=: '1.0.6'
 PLATFORMS=: ''
 FILES=: 0 : 0
 langexten.ijs
