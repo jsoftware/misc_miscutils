@@ -167,7 +167,7 @@ NB.?lintmsgsoff
 NB.?lintmsgson
 )
 
-NB. 18!:4 without side effects
+NB. cocurrent without side effects
 setlocale =: 18!:4
 
 NB. Cuts
