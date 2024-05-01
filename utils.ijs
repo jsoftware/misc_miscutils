@@ -371,8 +371,6 @@ NB. result is a (parenthesized) string that, when evaluated, equals y
 nountostring =: 3 : 'enparen 5!:5 <''y'''
 
 NB. Conjunction.  u is applied in each locale v
-NB. Note: these define a local cocurrent so that cocurrent can run even if the
-NB. locale destroyed itself
 inlocales =: 2 : 0
 i =. 18!:5 ''
 for_l. n do.
