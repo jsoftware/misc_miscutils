@@ -218,10 +218,8 @@ NB. starts reexecuting frequently, but are " till then.  The nature of these thi
 NB. must be that they perform I/O, so we inhibit them if they are null
 rnk =: 2 : 'u"v ifany'
 
-NB. Conjunction: x if y is nonzero, otherwise nullverb
+NB. Conjunction: u if y is nonzero, otherwise nullverb
 butonlyif =: 2 : 0
-if. n do. u else. ($0)"_ end.
-:
 if. n do. u else. ($0)"_ end.
 )
 
